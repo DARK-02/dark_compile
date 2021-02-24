@@ -33,4 +33,4 @@ $ sudo apt-get --force-yes -y install git python3 python3-pip
 $ git clone https://github.com/DARK-02/dark_compile.git
 $ cd dark_compile
 $ pip2 install requests mechanize
-$ python3 dark.py
+$ python2 dark_compile_all.py
