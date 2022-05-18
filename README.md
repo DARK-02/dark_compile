@@ -13,12 +13,12 @@
 *ini adalah compiler terbaik yang pernah saya buat!
 
 ##### Download
-* Python 2.x 
+* Python 2.x / 3.x
 * pip2
 * git
 
 ##### PYTHON 2 download
-* python2
+* python2 / python 3.x
 * pip
 
 # Install nya
@@ -33,4 +33,4 @@ $ sudo apt-get --force-yes -y install git python3 python3-pip
 $ git clone https://github.com/DARK-02/dark_compile.git
 $ cd dark_compile
 $ pip2 install requests mechanize
-$ python2 dark_compile_all.py
+$ python2 dark_compile_all.py / python3 dark_compile_python3.py
