@@ -1,0 +1,11 @@
+import os, marshal
+file = input("file> ")
+out = input("output> ")
+baca = open(file, "r").read()
+com = compile(baca, "", "exec")
+encrypt = marshal.dumps(com)
+baru = open(out, "w")
+baru.write("import marshal\n")
+baru.write("exec(marshal.loads("+repr(encrypt)+"))")
+print(encrypt)
+print("done")
